@@ -7,7 +7,7 @@ var server = http.createServer(function(request, response) {
 
 });
 
-var port = 8080;
+var port = 3000;
 server.listen(port);
 
 console.log("Server running.... Go to external IP of the app server");
